@@ -1,0 +1,19 @@
+Hi,
+
+I am a researcher of the Vrije Universiteit Amsterdam and we are building a set of guidelines for architecting ROS-based systems. 
+
+I am contacting you because you are contributing to a GitHub repo that is part of our dataset.
+Do you have 10-15 minutes (max) to fill out a short survey about the guidelines we extracted so far?
+
+The on-line survey is available here: https://forms.gle/QwuL6g1j1a9dnpvh6
+
+This research is carried out jointly by the Vrije Universiteit Amsterdam (The Netherlands), the Carnegie Mellon Software Engineering Institute (USA) and the Institute for Software Research at Carnegie Mellon University (USA). I hope you will find our work useful.
+
+Thanks in advance for your help!
+
+	Ivano
+
+:::
+
+Ivano Malavolta | Assistant professor | Vrije Universiteit Amsterdam, The Netherlands | http://www.ivanomalavolta.com
+	
