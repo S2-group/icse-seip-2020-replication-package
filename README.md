@@ -13,6 +13,21 @@ This study has been designed, developed, and reported by the following investiga
 For any information, interested researchers can contact us by sending an email to any of the investigators listed above.
 The full dataset including raw data, mining scripts, and analysis scripts produced during the study are available below.
 
+## How to cite the dataset
+If the dataset is helping your research, consider to cite it is as follows, thanks!
+
+```
+@inproceedings{ICSE_SEIP_2020,
+  title={{How do you Architect your Robots? State of the Practice and Guidelines for ROS-based Systems}},
+  author={Ivano Malavolta and Grace Lewis and Bradley Schmerl and Patricia Lago and David Garlan},
+  booktitle = {Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering},
+  year = {2020},
+  pages = {to appear},
+  numpages = {10},
+  url = {http://www.ivanomalavolta.com/files/papers/ICSE_SEIP_2020.pdf}
+}
+```
+
 ### Overview of the replication package
 ---
 
@@ -91,21 +106,6 @@ online_questionnaire
 ```
 
 The steps for contacting the list of contributors of the targeted GitHub repositories are presented [here](./INSTALL.md). 
-
-## How to cite the dataset
-If the dataset is helping your research, consider to cite it is as follows, thanks!
-
-```
-@inproceedings{ICSE_SEIP_2020,
-  title={{How do you Architect your Robots? State of the Practice and Guidelines for ROS-based Systems}},
-  author={Ivano Malavolta and Grace Lewis and Bradley Schmerl and Patricia Lago and David Garlan},
-  booktitle = {Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering},
-  year = {2020},
-  pages = {to appear},
-  numpages = {10},
-  url = {http://www.ivanomalavolta.com/files/papers/ICSE_SEIP_2020.pdf}
-}
-```
 
 ## License
 
