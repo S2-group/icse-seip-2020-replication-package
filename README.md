@@ -63,7 +63,7 @@ The data in the CSV files has been manually, collaboratively, and iteratively ex
 ---
 ```
 dataset
-    .
+    	.
 	|--- manual_selection_gitlab.pdf                    16 out of 46 GitLab projects were not hosted on gitlab.com, so we performed all the filtering steps manually in those cases. This is the data we manually extracted about the 16 Gitlab repositories resulting from this manual step
 	|--- repos_dataset_all.csv                          Automatically filtered repositories (598)
 	|--- repos_dataset_selected.csv                     Manually filtered repositories (335)
