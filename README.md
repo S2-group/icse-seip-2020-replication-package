@@ -70,7 +70,7 @@ dataset
 	|--- repos_dataset_selected_sadoc.csv               Repositories containing a description of the software architecture of the robotic system (115)
 	|--- repos_filtering_intermediate_numbers.pdf       Raw numbers about each single filtering step applied for building the dataset of ROS-based repositories
 	|--- repos_filtering_statistics.pdf                 Tables showing descriptive statistics about the various repositories selected before and after the manual selection, and after the check about the architecture documentation
-	|--- repos_golden_set.pdf                           The golden set of ROS repositories used for understanding if our selection procedure is correct
+	|--- repos_golden_set.pdf                           Contains the list of repositories we knew a priori were good candidates for our study and we used such a set for (i) double check if our repository filtering steps were too strict and (ii) for piloting the manual analysis of the contents of the repositories
 	|--- repos_mining_data/                             
 	│   |--- Archive.zip                                Archive containing all the raw data related to our filtering steps, including intermediate data coming from GHTorrent, raw data produced by rosmap, and the raw data obtained at each single filtering step
 	|--- repos_mining_scripts/                              
