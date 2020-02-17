@@ -8,8 +8,7 @@ library(likert)
 library(stringr)
 library(stringi)
 library(R.utils)
-
-setwd('.')
+library(here)
 
 loadfonts()
 options(max.print=100)
@@ -25,10 +24,10 @@ cv <- function(data, percentage){
   return(result)
 }
 
-repos = read.csv("../dataset/repos_dataset_selected.csv", na.strings=c("","NA"))
-survey_responses = read.csv("../online_questionnaire/online_questionnaire_responses_raw.csv", na.strings=c("","NA"))
-guidelines = read.csv("./guidelines_definitions.csv", na.strings=c("","NA"))
-survey_responses_coded = read.csv("online_questionnaire_responses.csv", na.strings=c("","NA"))
+repos = read.csv(here("dataset", "repos_dataset_selected.csv"), na.strings=c("","NA"))
+survey_responses = read.csv(here("online_questionnaire", "online_questionnaire_responses_raw.csv"), na.strings=c("","NA"))
+guidelines = read.csv(here("data_analysis", "guidelines_definitions.csv"), na.strings=c("","NA"))
+survey_responses_coded = read.csv(here("online_questionnaire", "online_questionnaire_responses.csv"), na.strings=c("","NA"))
 
 # We separate the guidelines column into multiple columns and then transform the df into the long format
 guidelines = guidelines %>% 
@@ -139,12 +138,12 @@ gen_guidelines_table = function() {
   }
 }
 
-plot(repos_long_system_type, 'System.type', './output/SystemType.pdf', 'Generic', 100, 13)
-plot(repos, 'Scope', './output/Scope.pdf', '', 250, 35)
-plot(repos_long_capabilities, 'Capability', './output/Capabilities.pdf', '', 55, 13)
-plot(repos, 'SA.documented', './output/SA_documented.pdf', '', 250, 35)
-plot(guidelines_long, 'quality_attributes', './output/quality_attribute_mentioned.pdf', '', 25, 13)
-plot(survey_responses_coded_long, 'quality_attributes', './output/quality_attribute_considered22.pdf', '', 55, 13)
+plot(repos_long_system_type, 'System.type', here('output', 'SystemType.pdf'), 'Generic', 100, 13)
+plot(repos, 'Scope', here('output', 'Scope.pdf'), '', 250, 35)
+plot(repos_long_capabilities, 'Capability', here('output', 'Capabilities.pdf'), '', 55, 13)
+plot(repos, 'SA.documented', here('output', 'SA_documented.pdf'), '', 250, 35)
+plot(guidelines_long, 'quality_attributes', here('output', 'quality_attribute_mentioned.pdf'), '', 25, 13)
+plot(survey_responses_coded_long, 'quality_attributes', here('output', 'quality_attribute_considered.pdf'), '', 55, 13)
 
 data = survey_responses %>% select(matches("G[1-9]+"))
 
@@ -156,7 +155,7 @@ data <- data %>% rename_all(funs( pairs$Final.ID ))
 col_order <- c('C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'N1', 'N2', 'N3', 'N4', 'N5', 'N6', 'N7', 'N8', 'B1', 'B2', 'B3', 'B4', 'I1', 'I2', 'I3', 'I4', 'I5', 'H1', 'H2', 'H3', 'H4', 'H5', 'S1', 'S2', 'S3', 'S4', 'P1', 'P2', 'P3')
 data <- data[, col_order]
 data <- data %>% na_if("Don't know")
-plot_responses('./output/guidelines_usefulness.pdf', data)
+plot_responses(here('output', 'guidelines_usefulness.pdf'), data)
 
 # gen_guidelines_table()
 
