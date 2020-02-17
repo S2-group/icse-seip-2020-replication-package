@@ -33,7 +33,7 @@ The whole dataset is available as a single CSV file called [repos_dataset_all.cs
 - **System type 1**: the type of robots supported by the software in the repository ([see here](https://github.com/S2-group/icse-seip-2020-replication-package/data_analysis/RQ1_codes_and_selection_criteria.pdf))
 - **System type 2**: as `System type 1`, in case the repository supports more than one system type
 - **System type 3**: as `System type 1`, in case the repository supports more than one system type
-- **Capability 1**: the robotic capabilities supported by the software in the repository ([see here](https://github.com/S2-group/icse-seip-2020-replication-package/data_analysis/RQ1_codes_and_selection_criteria.pdf)
+- **Capability 1**: the robotic capabilities supported by the software in the repository ([see here](https://github.com/S2-group/icse-seip-2020-replication-package/data_analysis/RQ1_codes_and_selection_criteria.pdf))
 - **Capability 2**: as `System Capability 1`, in case the repository supports more than one system capability
 - **Capability 3**: as `System Capability 1`, in case the repository supports more than one system capability
 - **SA documented**: `YES` if the software architecture is fully documented (e.g., all nodes, topics, and their connections are explicit), `PARTIALLY` if the software architecture is partially documented (e.g., only the exposed topics are documented), `NO` otherwise ([see here](https://github.com/S2-group/icse-seip-2020-replication-package/data_analysis/RQ1_codes_and_selection_criteria.pdf))
