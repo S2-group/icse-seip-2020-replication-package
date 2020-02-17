@@ -100,7 +100,6 @@ online_questionnaire
 	    │   |--- mailSender.py                          For each email address to target, it sends an (hard-coded)invitation email via the SendGrid API
 	    |--- cloned_repos/                              Empty folder which will contain the cloned repositories
 	    |--- cloned_repos.csv                           The list of cloned repositories from which to extract the list of contributors
-	    |--- people_12_months.csv                       The list of all contributors targeted by the on-line questionnaire
 	    |--- repos_to_clone.csv                         The list of repositories to clone
 ```
 
