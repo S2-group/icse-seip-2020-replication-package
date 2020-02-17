@@ -1,5 +1,7 @@
 # ICSE SEIP 2020 – Replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3672050.svg)](https://doi.org/10.5281/zenodo.3672050)
+
 This repository contains the replication package and dataset of the paper published at ICSE 2020 (SEIP track) with the title **How do you Architect your Robots? State of the Practice and Guidelines for ROS-based Systems**.
 
 This study has been designed, developed, and reported by the following investigators:
