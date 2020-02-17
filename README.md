@@ -95,6 +95,7 @@ online_questionnaire
     |--- online_questionnaire.pdf                       Full transcript of the on-line questionnaire
 	|--- online_questionnaire_invitation_email.txt      Text of the email for inviting roboticists to participate to the on-line survey
 	|--- online_questionnaire_responses.csv             All the responses of the on-line questionnaire, including our classification and codes
+	|--- online_questionnaire_responses_raw.csv         Raw data containing all the responses of the on-line questionnaire, as it has been exported from the Google Drive spreadsheet
 	|--- online_questionnaire_scripts/                   
 	    |--- Mail Sender/                               
 	    │   |--- README.md                              
