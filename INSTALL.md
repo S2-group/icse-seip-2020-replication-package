@@ -69,7 +69,7 @@ The goal of the steps below is to build the dataset we provide in [repos_dataset
   - `dataset/repos_mining_data/intermediateResults0_rosmap_github.json`
   - `dataset/repos_mining_data/intermediateResults0_all_bitbucket.json`
   - `dataset/repos_mining_data/intermediateResults0_all_gitlab.json`
-- Configure *GHTorrent* ([instructions](http://ghtorrent.org/)) as a MySQL database instance, run all the queries in [ghtorrent_queries.sql](https://github.com/S2-group/icse-seip-2020-replication-package/dataset/repos_mining_scripts/ghtorrent_queries.sql), and save the final result in `dataset/repos_mining_dataintermediateResults/2_ghtorrent_github.json`
+- Configure *GHTorrent* ([instructions](http://ghtorrent.org/)) as a MySQL database instance, run all the queries in [ghtorrent_queries.sql](https://github.com/S2-group/icse-seip-2020-replication-package/dataset/repos_mining_scripts/ghtorrent_queries.sql), and save the final result in `dataset/repos_mining_data/intermediateResults/2_ghtorrent_github.json`
 - run [merge_counter.py](https://github.com/S2-group/icse-seip-2020-replication-package/dataset/repos_mining_scripts/merge_counter.py)
 - run [explorer.py](https://github.com/S2-group/icse-seip-2020-replication-package/dataset/repos_mining_scripts/explorer.py)
 - run [cloner.py](https://github.com/S2-group/icse-seip-2020-replication-package/dataset/repos_mining_scripts/cloner.py)
