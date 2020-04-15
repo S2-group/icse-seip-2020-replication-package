@@ -36,14 +36,11 @@ If the dataset is helping your research, consider to cite it is as follows, than
 This replication package is structured as follows:
 
 ```
-malavolta
+    /
     .
     |--- data_analysis/       		The data that has been extracted during the iterative content analysis and the thematic analysis phases, and the R script for plotting the extracted data (see below).
-    |
     |--- dataset/             		The full dataset of ROS-based systems mined from GitHub, including also the Python scripts for rebuilding/updating the dataset and the raw data produced in all intermediate steps.
-    |
     |--- online_questionnaire/   	List of contacted participants, script for contacting all participants via email, raw data of the responses, transcript of the on-line questionnaire.
-    |
     |--- ICSE_SEIP_2020.pdf             A copy of the paper in pdf format
 ```
 
