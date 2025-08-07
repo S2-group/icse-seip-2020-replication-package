@@ -20,13 +20,14 @@ If the dataset is helping your research, consider to cite it is as follows, than
 
 ```
 @inproceedings{ICSE_SEIP_2020,
-  title={{How do you Architect your Robots? State of the Practice and Guidelines for ROS-based Systems}},
-  author={Ivano Malavolta and Grace Lewis and Bradley Schmerl and Patricia Lago and David Garlan},
-  booktitle = {Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering},
-  year = {2020},
-  pages = {to appear},
-  numpages = {10},
-  url = {http://www.ivanomalavolta.com/files/papers/ICSE_SEIP_2020.pdf}
+  url = { http://www.ivanomalavolta.com/files/papers/ICSE_SEIP_2020.pdf },
+  doi = { 10.1145/3377813.3381358 },
+  numpages = { 10 },
+  pages = { 31--40 },
+  year = { 2020 },
+  booktitle = { Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Software Engineering in Practice },
+  author = { Ivano Malavolta and Grace Lewis and Bradley Schmerl and Patricia Lago and David Garlan },
+  title = { How do you Architect your Robots? State of the Practice and Guidelines for ROS-based Systems },
 }
 ```
 
